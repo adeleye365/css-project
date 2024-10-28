@@ -1,0 +1,24 @@
+#button1{
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px double rgba(0, 4, 255, 0.63);
+    color: rgb(0, 0, 255);
+    border-radius: 20px;
+    cursor: grab;
+}
+#button2{
+    padding: 8px 15px;
+    background-color: aqua;
+    color: rgba(128, 128, 128, 0.822);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px dotted burlywood;
+}
+#button2:hover{
+    background-color: transparent;
+    color: blueviolet;
+}
+body{
+    background-color: black;
+}

@@ -1,0 +1,50 @@
+#invisible{
+    height: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 450px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+form h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-group label{
+    font-weight: 500;
+    font-size: 2em;
+    color: crimson;
+}
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: burlywood;
+}
+.form-group input::placeholder{
+    color: burlywood;
+}
+.form-group input[type = "submit"]:hover{
+    background-color: yellowgreen;
+    height: 100px;
+}

@@ -1,0 +1,38 @@
+#container{
+    height: 500px;
+    width: 300px;
+    background-color: rgba(127, 255, 212, 0.918);
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 10px goldenrod;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(goku\ 1.jpg);
+	background-repeat: initial;
+	background-size: contain;
+	background-position: center;
+    text-shadow: black;
+    cursor:grabbing;
+}
+#container img{
+    height: 100px;
+    width: 100px;
+}
+/* #container audio{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+} */
+#goku{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: blue;
+    border: dotted 5px aqua ;
+    color: white;
+    cursor: pointer;    
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+}
+#image{
+    height: 500px;
+    width: 300px;
+    background-color: midnightblue;
+    border-radius: 7cqi;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 10px black;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(goku\ 2.jpg);
+	background-repeat: initial;
+	background-size: contain;
+	background-position: center;
+    text-shadow: black;
+    cursor:grabbing;
+}
+#image img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+   
+}
+}
+}
