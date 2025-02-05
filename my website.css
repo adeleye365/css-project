@@ -1,0 +1,103 @@
+body{
+    background-color: wheat;
+}
+h2{
+    text-align: center;
+    animation: changeColors1 5s ease-in-out;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes changeColors1{
+    0%{color: blueviolet;}
+    25%{color: green;}
+    50%{color: crimson;}
+    75%{color: gold;}
+    100%{color: brown;}
+}
+
+h1{
+    text-align: center;
+    animation: changeColors2 5s ease-in-out;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    font-size: 3em;
+    font-weight: 1000;
+}
+@keyframes changeColors2{
+    0%{color: black;}
+    25%{color: aqua;}
+    50%{color: coral;}
+    75%{color: darkmagenta;}
+    100%{color: deeppink;}
+}
+#holyDiv{
+background-color: rgba(0, 0, 0, 0.884);
+color: black;
+border: solid 10px ;
+height: 450px;
+width: 400px;
+margin-left: 470px;
+border-radius: 30px;
+text-align: center;
+animation: changeColors3 5s ease-in-out;
+position: relative;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+@keyframes changeColors3{
+    0%{color: goldenrod;}
+    25%{color: mediumslateblue;}
+    50%{color: powderblue;}
+    75%{color: peru;}
+    100%{color: red;}
+}
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border: solid 7px rebeccapurple;
+    margin-top: 50px;
+    margin-left: 70px;
+    animation: changeColors4 5s ease-in-out;
+   position: relative;
+   animation-iteration-count: infinite;
+   animation-duration: 5s;
+}
+@keyframes changeColors4{
+    0%{color: blue;}
+    25%{color: black;}
+    50%{color: yellow;}
+    75%{color:brown;}
+    100%{color: lightslategray;}
+}
+
+#lonely{
+   height: 30px;
+   width: 90px;
+   border-radius: 25px;
+   background-color: darkorange;
+   cursor: grabbing;
+   border: solid 6px;
+   margin-top: 7px;
+   animation: changeColors4 5s ease-in-out;
+   position: relative;
+   animation-iteration-count: infinite;
+   animation-duration: 5s;
+ }
+ @keyframes changeColors4{
+    0%{color: turquoise;}
+    25%{color: tomato;}
+    50%{color: palevioletred;}
+    75%{color:midnightblue;}
+    100%{color: mediumspringgreen;}
+}
+h2{
+    font-size: 1.5em;
+}
